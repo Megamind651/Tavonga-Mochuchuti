@@ -9,6 +9,23 @@
   Version: 1.0.0
 
 -------------------------------------------------------------*/
+
+.video-container{
+  width: 100vw;
+  height: 100vh;
+}
+
+iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+}
+
+
+
 /*-----------------------------------------------------------
 
     1.  Variables
@@ -506,6 +523,11 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+}
+
+img.dark-logo, img.logo { 
+  width: 180px;
+  height: 0;
 }
 
 iframe {
@@ -4635,6 +4657,8 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   overflow: hidden;
 }
 
+
+
 .v-light .contact-up {
   background-color: #e6e6e6;
 }
@@ -5560,7 +5584,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .box-gallery-vertical [data-dsn-grid="moveUp"] {
-  height: 100vh;
+  height: 50vh;
 }
 
 .box-gallery-vertical .vertical-title {
@@ -6071,7 +6095,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   background-color: #0d0d0d;
   max-width: 600px;
   padding: 80px;
-  right: 80px;
+  left: 80px;
   bottom: -80px;
 }
 
